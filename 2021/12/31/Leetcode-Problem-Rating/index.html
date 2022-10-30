@@ -1,0 +1,1823 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="Leetcode Problem Rating, AKAARTOEN">
+    <meta name="description" content="Personal Checklist of Rating 2300+ Problems in LC">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+    <title>Leetcode Problem Rating | AKAARTOEN</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    
+
+
+    <!-- bg-cover style     -->
+
+
+
+<link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/materialize/materialize.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+<link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+<link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+<link rel="stylesheet" type="text/css" href="/css/matery.css">
+<link rel="stylesheet" type="text/css" href="/css/my.css">
+<link rel="stylesheet" type="text/css" href="/css/dark.css" media="none" onload="if(media!='all')media='all'">
+
+
+
+
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+    <link rel="stylesheet" href="/css/post.css">
+
+
+
+
+    
+        <link rel="stylesheet" type="text/css" href="/css/reward.css">
+    
+
+
+
+    <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper container">
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="/medias/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">AKAARTOEN</span>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>Index</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/tags" class="waves-effect waves-light">
+      
+      <i class="fas fa-tags" style="zoom: 0.6;"></i>
+      
+      <span>Tags</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/categories" class="waves-effect waves-light">
+      
+      <i class="fas fa-bookmark" style="zoom: 0.6;"></i>
+      
+      <span>Categories</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/archives" class="waves-effect waves-light">
+      
+      <i class="fas fa-archive" style="zoom: 0.6;"></i>
+      
+      <span>Archives</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/about" class="waves-effect waves-light">
+      
+      <i class="fas fa-user-circle" style="zoom: 0.6;"></i>
+      
+      <span>About</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>Contact</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
+      
+      <span>Friends</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="Search" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:;" class="waves-effect waves-light" onclick="switchNightMode()" title="深色/浅色模式" >
+      <i id="sum-moon-icon" class="fas fa-sun" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">AKAARTOEN</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			Index
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/tags" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-tags"></i>
+			
+			Tags
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/categories" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-bookmark"></i>
+			
+			Categories
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/archives" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-archive"></i>
+			
+			Archives
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/about" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-user-circle"></i>
+			
+			About
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			Contact
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-address-book"></i>
+			
+			Friends
+		</a>
+          
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/blinkfox/hexo-theme-matery" class="waves-effect waves-light" target="_blank">
+                <i class="fab fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+
+        
+            <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #0f9d58;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/blinkfox/hexo-theme-matery" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
+   data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewBox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+              fill="currentColor" class="octo-body"></path>
+    </svg>
+</a>
+        
+    </nav>
+
+</header>
+
+    
+
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('/images/LeetcodeIcon.png')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Leetcode Problem Rating</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<main class="post-container content">
+
+    
+    <div class="row">
+    <div id="main-content" class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Competitive-Programming/">
+                                <span class="chip bg-color">Competitive Programming</span>
+                            </a>
+                        
+                            <a href="/tags/Leetcode/">
+                                <span class="chip bg-color">Leetcode</span>
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Competitive-Programming/" class="post-category">
+                                Competitive Programming
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>Publish Date:&nbsp;&nbsp;
+                    2021-12-30
+                </div>
+                
+
+                
+
+                
+
+                
+
+                
+            </div>
+        </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.min.css">
+        
+
+        
+
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <h1 id="Leetcode-Problem-Rating"><a href="#Leetcode-Problem-Rating" class="headerlink" title="Leetcode Problem Rating"></a>Leetcode Problem Rating</h1><h2 id="Personal-CheckList"><a href="#Personal-CheckList" class="headerlink" title="Personal CheckList"></a>Personal CheckList</h2><table>
+<thead>
+<tr>
+<th>Finished</th>
+<th>Rating</th>
+<th>ID</th>
+<th>Title</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>&amp;#9745;</td>
+<td>3018.49</td>
+<td>1719</td>
+<td>Number Of Ways To Reconstruct A Tree</td>
+<td><font color=#0000FF><strong>2021.12.30</strong></font> 乍看是Graph問題，如果有看出是排列組合問題應該就不是難題了，另外需要會模反知識。</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2872.03</td>
+<td>1982</td>
+<td>Find Array Given Subset Sums</td>
+<td><font color=#0000FF><strong>2021.12.30</strong></font> <a target="_blank" rel="noopener" href="https://www.codechef.com/problems/ANUMLA">原題都是非負數</a>。負最小跟正最大值顯然就是全負或是全正的集合，再觀察如果<code>所有當前集合</code>都扣掉<code>全負集合</code>，集合的結構如何變化? <strong>這題需要再多複習</strong>。</td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2863.14</td>
+<td>770</td>
+<td>Basic Calculator IV</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2849.48</td>
+<td>1728</td>
+<td>Cat and Mouse II</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2817.27</td>
+<td>1977</td>
+<td>Number of Ways to Separate Numbers</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2803.77</td>
+<td>2060</td>
+<td>Check if an Original String Exists Given Two Encoded Strings</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2765.25</td>
+<td>803</td>
+<td>Bricks Falling When Hit</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2690.59</td>
+<td>1960</td>
+<td>Maximum Product of the Length of Two Palindromic Substrings</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2666.67</td>
+<td>1397</td>
+<td>Find All Good Strings</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2661.07</td>
+<td>1923</td>
+<td>Longest Common Subpath</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2655.22</td>
+<td>1659</td>
+<td>Maximize Grid Happiness</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2650.90</td>
+<td>2097</td>
+<td>Valid Arrangement of Pairs</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2648.17</td>
+<td>2071</td>
+<td>Maximum Number of Tasks You Can Assign</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2640.38</td>
+<td>1787</td>
+<td>Make the XOR of All Segments Equal to Zero</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2620.42</td>
+<td>1830</td>
+<td>Minimum Number of Operations to Make String Sorted</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2610.99</td>
+<td>2056</td>
+<td>Number of Valid Move Combinations On Chessboard</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2610.08</td>
+<td>1687</td>
+<td>Delivering Boxes from Storage to Ports</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2594.14</td>
+<td>964</td>
+<td>Least Operators to Express Number</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2587.87</td>
+<td>1883</td>
+<td>Minimum Skips to Arrive at Meeting On Time</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2583.90</td>
+<td>2019</td>
+<td>The Score of Students Solving Math Expression</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2583.41</td>
+<td>936</td>
+<td>Stamping The Sequence</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2575.96</td>
+<td>1531</td>
+<td>String Compression II</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2571.55</td>
+<td>1489</td>
+<td>Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2566.59</td>
+<td>913</td>
+<td>Cat and Mouse</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2561.78</td>
+<td>2030</td>
+<td>Smallest K-Length Subsequence With Occurrences of a Letter</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2559.44</td>
+<td>1815</td>
+<td>Maximum Number of Groups Getting Fresh Donuts</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2558.33</td>
+<td>2014</td>
+<td>Longest Subsequence Repeated k Times</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2539.86</td>
+<td>1819</td>
+<td>Number of Different Subsequences GCDs</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2537.80</td>
+<td>1595</td>
+<td>Minimum Cost to Connect Two Groups of Points</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2533.78</td>
+<td>1948</td>
+<td>Delete Duplicate Folders in System</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2533.30</td>
+<td>1675</td>
+<td>Minimize Deviation in Array</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2531.65</td>
+<td>1896</td>
+<td>Minimum Cost to Change the Final Value of Expression</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2530.69</td>
+<td>1776</td>
+<td>Car Fleet II</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2529.53</td>
+<td>1632</td>
+<td>Rank Transform of a Matrix</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2517.68</td>
+<td>2040</td>
+<td>Kth Smallest Product of Two Sorted Arrays</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2502.52</td>
+<td>1938</td>
+<td>Maximum Genetic Difference Query</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2499.56</td>
+<td>1735</td>
+<td>Count Ways to Make Array With Product</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2489.67</td>
+<td>2035</td>
+<td>Partition Array Into Two Arrays to Minimize Sum Difference</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2486.23</td>
+<td>1916</td>
+<td>Count Ways to Build Rooms in an Ant Colony</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2483.94</td>
+<td>1932</td>
+<td>Merge BSTs to Create Single BST</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2481.72</td>
+<td>1330</td>
+<td>Reverse Subarray To Maximize Array Value</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2479.33</td>
+<td>1803</td>
+<td>Count Pairs With XOR in a Range</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2476.45</td>
+<td>1622</td>
+<td>Fancy Sequence</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2466.89</td>
+<td>1703</td>
+<td>Minimum Adjacent Swaps for K Consecutive Ones</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2464.51</td>
+<td>1994</td>
+<td>The Number of Good Subsets</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2457.12</td>
+<td>1782</td>
+<td>Count Pairs Of Nodes</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2456.39</td>
+<td>1499</td>
+<td>Max Value of Equation</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2455.82</td>
+<td>1040</td>
+<td>Moving Stones Until Consecutive II</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2454.77</td>
+<td>1900</td>
+<td>The Earliest and Latest Rounds Where Players Compete</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2439.73</td>
+<td>1872</td>
+<td>Stone Game VIII</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2433.38</td>
+<td>903</td>
+<td>Valid Permutations for DI Sequence</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2429.67</td>
+<td>782</td>
+<td>Transform to Chessboard</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2429.09</td>
+<td>1998</td>
+<td>GCD Sort of an Array</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2428.80</td>
+<td>1044</td>
+<td>Longest Duplicate Substring</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2422.53</td>
+<td>1000</td>
+<td>Minimum Cost to Merge Stones</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2422.31</td>
+<td>1987</td>
+<td>Number of Unique Good Subsequences</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2418.57</td>
+<td>1203</td>
+<td>Sort Items by Groups Respecting Dependencies</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2415.01</td>
+<td>2003</td>
+<td>Smallest Missing Genetic Value in Each Subtree</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2413.40</td>
+<td>1928</td>
+<td>Minimum Cost to Reach Destination in Time</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2409.76</td>
+<td>1388</td>
+<td>Pizza With 3n Slices</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2399.57</td>
+<td>920</td>
+<td>Number of Music Playlists</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2396.63</td>
+<td>808</td>
+<td>Soup Servings</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2395.88</td>
+<td>1825</td>
+<td>Finding MK Average</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2391.81</td>
+<td>818</td>
+<td>Race Car</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2389.96</td>
+<td>1681</td>
+<td>Minimum Incompatibility</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2385.81</td>
+<td>1349</td>
+<td>Maximum Students Taking Exam</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2383.77</td>
+<td>1521</td>
+<td>Find a Value of a Mysterious Function Closest to Target</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2381.48</td>
+<td>956</td>
+<td>Tallest Billboard</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2378.62</td>
+<td>757</td>
+<td>Set Intersection Size At Least Two</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2377.39</td>
+<td>854</td>
+<td>K-Similar Strings</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2376.87</td>
+<td>887</td>
+<td>Super Egg Drop</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2374.19</td>
+<td>1840</td>
+<td>Maximum Building Height</td>
+<td></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2366.71</td>
+<td>1183</td>
+<td>Maximum Number of Ones</td>
+<td><font color=#0000FF><strong>2022.01.05</strong></font> 這題被鎖了，看了一下題目我很可能不會</td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2363.51</td>
+<td>1755</td>
+<td>Closest Subsequence Sum</td>
+<td>2021.01.05 標準折半枚舉的題目，窮舉要記得兩件事情: <strong>(1)不能一邊從set取值又一邊插入資料到set中，(2)卡一個很蠢的bug很久，折半的seq1,seq2的長度要等窮舉後才算，記得我出過長度bug好幾次了</strong></td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2362.65</td>
+<td>1520</td>
+<td>Maximum Number of Non-Overlapping Substrings</td>
+<td>2021.01.05 這題印象太深，是否真的會有點不準，重點在<code>假設有c在substring中，則所有的c都必須在這個substring中</code>，可以先找到每個c的minpos,maxpos，然後從minpos開始往右掃，如果有遇到某個c1的minpos1比minpos小，顯然c必然不會是起點，可以直接拋棄</td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2358.97</td>
+<td>1707</td>
+<td>Maximum XOR With an Element From Array</td>
+<td>2021.01.05 標準Trie找XOR最大值的題目，奇怪的是自以為寫得很精簡了竟然跑8~9秒，另外值得一提的是，這種<strong>offline的query問題，很多都可以先排序，把窮舉範圍限縮在有效數字</strong>，不但移除了例外判斷式，速度也快上許多</td>
+</tr>
+<tr>
+<td>&amp;#9744;</td>
+<td>2356.58</td>
+<td>1467</td>
+<td>Probability of a Two Boxes Having The Same Number of Distinct Balls</td>
+<td>2022.01.04 寫了一個4維DP<code>DP[idx][k1][k2][group1_size]</code>，order為<code>(n^2*k^2)</code>，比較有意思的是我的DP計算的是每個狀態的機率值，題目問的是<code>在group1.size==group2.size的時候，剛好顏色數也相等的機率</code>，這其實是一個<strong>條件機率問題</strong>，花蠻久時間才意識到這件事情。</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2350.97</td>
+<td>1713</td>
+<td>Minimum Operations to Make a Subsequence</td>
+<td>2022.01.03 經典將LCS從<code>n1*n2</code>轉換成<code>n1*log(n2)</code>的題目，主要的限制就是target不會重複，也就是<strong>同一個數字不會出現在target內多個位置，可以透過BIT找區間最大，甚至是當作LIS也可以(找到當前pos可以插入stack中的最佳位置)</strong></td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2350.04</td>
+<td>837</td>
+<td>New 21 Game</td>
+<td><font color=#0000FF><strong>2022.01.02</strong></font> 寫一個<code>n*k</code>的DP解，但是超時</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2348.52</td>
+<td>1096</td>
+<td>Brace Expansion II</td>
+<td><font color=#0000FF><strong>2022.01.02</strong></font> 2021.01.02 寫了一版，但程式設計的很糟，簡直是濫用python方便性的典範，<strong>這題很講究流程設計，需要多參考漂亮的C++答案</strong>，是個好題目</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2345.34</td>
+<td>1611</td>
+<td>Minimum One Bit Operations to Make Integers Zero</td>
+<td><font color=#0000FF><strong>2022.01.02</strong></font> 觀察許久才寫出來的題目，可以先觀察出要在<code>i-th bit</code>放置1或是取走1都是花費<code>2^i-1</code>步，針對一個已經存在的bit有兩種可能的策略： (1)直接取走 (2)往上推到跟下一個bit相鄰先把下一個bit消掉後再取走，也就是<code>dp[i] = min(dp[i-1]+steps(take_current), dp[i-2]+steps(to_adjacent_and_take_both))</code></td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2341.45</td>
+<td>810</td>
+<td>Chalkboard XOR Game</td>
+<td>2021.01.02 這題被噓的很慘，主要是考驗觀察和分析，但應該不算難題</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2336.52</td>
+<td>1505</td>
+<td>Minimum Possible Integer After at Most K Adjacent Swaps On Digits</td>
+<td>2021.01.02 Greedy + BIT的模板題，BIT主要的用途是確認如果把某數字移到最前或最後，中間會穿越多少數字</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2333.24</td>
+<td>1674</td>
+<td>Minimum Moves to Make Array Complementary</td>
+<td><font color=#0000FF><strong>2022.01.01</strong></font> 對這題有印象，我用BIT維護大於或小於target的pair中，統計各自要調整一次還是兩次，但<strong>這題可以用差分概念解</strong>，具體想法可<a target="_blank" rel="noopener" href="https://leetcode-cn.com/problems/minimum-moves-to-make-array-complementary/solution/jie-zhe-ge-wen-ti-xue-xi-yi-xia-chai-fen-shu-zu-on/">參考</a>，定義<code>res[x]為arr[i]+arr[n-i-1]=x需要的操作數</code>，共可以分三種情境討論，假設<code>nums[i]=A, nums[n-i-1]=B</code>： <br> (1)恰好<code>x等於A+B</code>，顯然不用操作 <br> (2)否則<code>x介於[1+min(A,B), limit+max(A,B)]</code>，如果剛好在這個區間內，需要操作一次 <br> (3)否則<code>x介於[2,2*limit]</code>都需要操作兩次 <br><br> 因此針對每個pair可以做三個區間更新<code>[2,limit*2]:+2, [1+min(A,B),limit+max(A,B)]:-1, [A+B]:-1</code>，該文中最精闢的我覺得是這句，由於本題我們<strong>區間更新之後只需要單點查詢，因此不需要使用線段樹或樹狀數組，直接用差分的方式即可。</strong>  <br><br>這題給我一個很大的省思，<strong>差分的概念其實就是區間更新加上逐步查詢</strong>，過去比較直覺的差分是更新之後不再改變，本題的區間是彈性的，是LC差分題目中最具有代表性的題目了</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2333.06</td>
+<td>1866</td>
+<td>Number of Ways to Rearrange Sticks With K Sticks Visible</td>
+<td><font color=#0000FF><strong>2022.01.01</strong></font> 單純要完成這題的話，先寫出一個<code>(n^2)*k</code>的答案，<strong>再把DP表印出來很容易就能觀察到規律為</strong>:<code>DP(n,k)=(n-1)*DP(n-1,k)+DP(n-1,k-1)</code>，其實這就是 <strong>第一斯特林數(Stirling number of the first kind)</strong> ，看過兩個可以接受的解釋。<br><br> <strong>(版本一)</strong> 針對DP(n,k)考慮目前排在最後的那一根木棒(1)如果該木棒是最長的，則剩下n-1支木棒要有k-1支看的到，也就是<code>DP(n-1,k-1)</code>；(2)如果該木棒不是最長的，顯然最後一根木棒被擋住，也就是前面n-1支木棒得看的到k支才行，又n支木棒中，最後一跟不是最長的情況有n-1種，因此<code>(n-1)*DP(n-1,k)</code>。<br><br> <strong>(版本二)</strong> 假設從大到小慢慢插入木棒，當我們要插入一根當前最小的木棒時，(1)如果木棒是插在最前端，代表可以多看到一根木棒<code>DP(n-1,k-1) -&gt;  DP(n,k)</code>；(2)如果不是插在最前端，此時有n-1種插法，不論哪種插法都不影響被看到的木棒數量，因此<code>(n-1)*DP(n-1,k)-&gt;DP(n,k)</code>。</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2333.01</td>
+<td>1585</td>
+<td>Check If String Is Transformable With Substring Sort Operations</td>
+<td>2022.01.01 找規律卡了一下，後來發現不論怎麼交換，大的數字都不可能向前穿越小的數字，因此t從後往前看，只要確認s中是否存在更大的數字卡住我們想要取走的數字即可</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2328.43</td>
+<td>882</td>
+<td>Reachable Nodes In Subdivided Graph</td>
+<td>2021.12.31 簡單，但有點久沒寫Dijkstra，加上又是變形題，多花了一些時間設計流程，總之就是對每個大節點都找最短距離，之後再處理節點中間的小點</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2315.60</td>
+<td>1187</td>
+<td>Make Array Strictly Increasing</td>
+<td>2021.12.31 簡單，很標準的DP問題，但我連續繳交錯三次答案，應該要更<strong>小心處理狀態轉換以及初始值</strong>的問題</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2312.99</td>
+<td>1857</td>
+<td>Largest Color Value in a Directed Graph</td>
+<td>2021.12.31 簡單，一開始沒注意到只有26種顏色，我直接寫一個toposort並DP更新26種顏色的最大值，同時還能確認是否有cycle，我看以前曾經寫過的版本是先確認cycle，再每個顏色都各跑一輪，顯然今天寫的版本更好，<strong>可以想想如果顏色是10^5是否能解</strong></td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2310.38</td>
+<td>1959</td>
+<td>Minimum Total Space Wasted With K Resizing Operations</td>
+<td>2021.12.31 簡單，這題rating感覺頂多2100吧</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2308.65</td>
+<td>1617</td>
+<td>Count Subtrees With Max Distance Between Cities</td>
+<td>2021.12.31 寫得有點太複雜，我對每個bitmask都先確認連通再求直徑。 之前寫過的解是從最小的連通塊開始長大，因此不用再判斷連通，只要小心別重複計算即可，不過未必比較好就是了。雖然計算Graph的直徑確實可以用dfs，但本題可以事先用Floyd-Warshall algorithm建立距離表，程式碼會比較簡潔，惟複雜度會比較高。</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2307.02</td>
+<td>1655</td>
+<td>Distribute Repeating Integers</td>
+<td>2021.12.31 簡單，<strong>題目要仔細看</strong>，竟然漏掉m&#x3D;10這個超強限制，<strong>可以想想如果m很大的話能不能解</strong></td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2306.85</td>
+<td>862</td>
+<td>Shortest Subarray with Sum at Least K</td>
+<td>2021.12.31 簡單</td>
+</tr>
+<tr>
+<td>&amp;#9745;</td>
+<td>2300.16</td>
+<td>1697</td>
+<td>Checking Existence of Edge Length Limited Paths</td>
+<td>2021.12.30 簡單，我以前竟然在比賽沒解出這題</td>
+</tr>
+</tbody></table>
+<h2 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/zerotrac/leetcode_problem_rating/tree/gh-pages">零神: Leetcode Problem Rating</a></li>
+</ul>
+<h2 id="Covert-Data-to-Markdown"><a href="#Covert-Data-to-Markdown" class="headerlink" title="Covert Data to Markdown"></a>Covert Data to Markdown</h2><ul>
+<li>Step1: Data Preprocess to Json</li>
+</ul>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">import</span> pandas <span class="token keyword">as</span> pd
+
+<span class="token comment"># Read Json</span>
+FILE_NAME <span class="token operator">=</span> <span class="token string">"./data.json"</span>
+df <span class="token operator">=</span> pd<span class="token punctuation">.</span>read_json<span class="token punctuation">(</span>FILE_NAME<span class="token punctuation">)</span>
+
+<span class="token comment"># Preprocess</span>
+mask <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token string">"Rating"</span><span class="token punctuation">]</span> <span class="token operator">></span> <span class="token number">2300</span>
+df <span class="token operator">=</span> df<span class="token punctuation">[</span>mask<span class="token punctuation">]</span>
+df<span class="token punctuation">[</span><span class="token string">"Rating"</span><span class="token punctuation">]</span> <span class="token operator">=</span> df<span class="token punctuation">[</span><span class="token string">"Rating"</span><span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token builtin">apply</span><span class="token punctuation">(</span><span class="token keyword">lambda</span> x<span class="token punctuation">:</span> <span class="token string">"&#123;0:.2f&#125;"</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>x<span class="token punctuation">)</span><span class="token punctuation">)</span>
+df<span class="token punctuation">[</span><span class="token string">"Finished"</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">"&amp;#9744;"</span>
+df<span class="token punctuation">[</span><span class="token string">"Comment"</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">" "</span> <span class="token operator">*</span> <span class="token number">50</span>
+<span class="token comment"># check: &amp;#9745; </span>
+<span class="token comment"># uncheck: &amp;#9744;</span>
+
+<span class="token comment"># Ouput</span>
+COLS <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">"Finished"</span><span class="token punctuation">,</span> <span class="token string">"Rating"</span><span class="token punctuation">,</span> <span class="token string">"ID"</span><span class="token punctuation">,</span> <span class="token string">"Title"</span><span class="token punctuation">,</span> <span class="token string">"Comment"</span><span class="token punctuation">]</span>
+res_df <span class="token operator">=</span> df<span class="token punctuation">[</span>COLS<span class="token punctuation">]</span>
+res_df<span class="token punctuation">.</span>to_json<span class="token punctuation">(</span><span class="token string">"./problem_list.json"</span><span class="token punctuation">,</span> orient <span class="token operator">=</span> <span class="token string">'records'</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ul>
+<li>Step2: <a target="_blank" rel="noopener" href="https://kdelmonte.github.io/json-to-markdown-table/">JSON to Markdown Table</a></li>
+</ul>
+
+                
+            </div>
+            <hr/>
+
+            
+
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        Author:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">Aaron Yen</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        Link:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://aaronyen0.github.io/2021/12/31/Leetcode-Problem-Rating/">https://aaronyen0.github.io/2021/12/31/Leetcode-Problem-Rating/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        Reprint policy:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    All articles in this blog are used except for special statements
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    reprint policy. If reproduced, please indicate source
+                    <a href="/about" target="_blank">Aaron Yen</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>Copied successfully, please follow the reprint policy of this article</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">more</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/Competitive-Programming/">
+                                    <span class="chip bg-color">Competitive Programming</span>
+                                </a>
+                            
+                                <a href="/tags/Leetcode/">
+                                    <span class="chip bg-color">Leetcode</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
+            
+                <div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
+
+            
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fas fa-chevron-left"></i>&nbsp;Previous</div>
+            <div class="card">
+                <a href="/2022/01/03/Leetcode-Contest-Review-Weekly274/">
+                    <div class="card-image">
+                        
+                        <img src="/images/LeetcodeIcon.png" class="responsive-img" alt="Leetcode Contest Review - Weekly 274">
+                        
+                        <span class="card-title">Leetcode Contest Review - Weekly 274</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Personal review of Leetcode contest
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-01-03
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Competitive-Programming/" class="post-category">
+                                    Competitive Programming
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Competitive-Programming/">
+                        <span class="chip bg-color">Competitive Programming</span>
+                    </a>
+                    
+                    <a href="/tags/Leetcode/">
+                        <span class="chip bg-color">Leetcode</span>
+                    </a>
+                    
+                    <a href="/tags/Leetcode-Contest/">
+                        <span class="chip bg-color">Leetcode Contest</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                Next&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2021/12/28/Leetcode2117-Abbreviating-the-Product-of-a-Range/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Leetcode 2117. Abbreviating the Product of a Range">
+                        
+                        <span class="card-title">Leetcode 2117. Abbreviating the Product of a Range</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            Maintain first k-digits for large value? Remember the Logarithm!
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-12-28
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Math/" class="post-category">
+                                    Math
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Leetcode/">
+                        <span class="chip bg-color">Leetcode</span>
+                    </a>
+                    
+                    <a href="/tags/Math/">
+                        <span class="chip bg-color">Math</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+
+</div>
+
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+
+  <!-- 是否加载使用自带的 prismjs. -->
+  <script type="text/javascript" src="/libs/prism/prism.min.js"></script>
+
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+
+    </div>
+    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
+        <div class="toc-widget card" style="background-color: white;">
+            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;TOC</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<!-- TOC 悬浮按钮. -->
+
+<div id="floating-toc-btn" class="hide-on-med-and-down">
+    <a class="btn-floating btn-large bg-color">
+        <i class="fas fa-list-ul"></i>
+    </a>
+</div>
+
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            collapseDepth: Number('0'),
+            headingSelector: 'h2, h3, h4'
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+
+        
+        /* 修复文章卡片 div 的宽度. */
+        let fixPostCardWidth = function (srcId, targetId) {
+            let srcDiv = $('#' + srcId);
+            if (srcDiv.length === 0) {
+                return;
+            }
+
+            let w = srcDiv.width();
+            if (w >= 450) {
+                w = w + 21;
+            } else if (w >= 350 && w < 450) {
+                w = w + 18;
+            } else if (w >= 300 && w < 350) {
+                w = w + 16;
+            } else {
+                w = w + 14;
+            }
+            $('#' + targetId).width(w);
+        };
+
+        // 切换TOC目录展开收缩的相关操作.
+        const expandedClass = 'expanded';
+        let $tocAside = $('#toc-aside');
+        let $mainContent = $('#main-content');
+        $('#floating-toc-btn .btn-floating').click(function () {
+            if ($tocAside.hasClass(expandedClass)) {
+                $tocAside.removeClass(expandedClass).hide();
+                $mainContent.removeClass('l9');
+            } else {
+                $tocAside.addClass(expandedClass).show();
+                $mainContent.addClass('l9');
+            }
+            fixPostCardWidth('artDetail', 'prenext-posts');
+        });
+        
+    });
+</script>
+
+    
+
+</main>
+
+
+
+
+    <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        
+        display: none;
+        
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        
+        display: none;
+        
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="/libs/aplayer/Meting.min.js"></script>
+
+    
+
+    <div class="container row center-align"
+         style="margin-bottom: 0px !important;">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            
+                <span id="year">2019-2022</span>
+            
+            <a href="/about" target="_blank">Aaron Yen</a>
+            |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
+            |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
+            <br>
+            
+            
+            
+                
+            
+            
+                <span id="busuanzi_container_site_pv">
+                &nbsp;|&nbsp;<i class="far fa-eye"></i>&nbsp;Total visits:&nbsp;
+                    <span id="busuanzi_value_site_pv" class="white-color"></span>
+            </span>
+            
+            
+                <span id="busuanzi_container_site_uv">
+                &nbsp;|&nbsp;<i class="fas fa-users"></i>&nbsp;Total visitors:&nbsp;
+                    <span id="busuanzi_value_site_uv" class="white-color"></span>
+            </span>
+            
+            <br>
+
+            <!-- 运行天数提醒. -->
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:1181062873@qq.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1181062873" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(function () {
+    var searchFunc = function (path, search_id, content_id) {
+        'use strict';
+        $.ajax({
+            url: path,
+            dataType: "xml",
+            success: function (xmlResponse) {
+                // get the contents from search data
+                var datas = $("entry", xmlResponse).map(function () {
+                    return {
+                        title: $("title", this).text(),
+                        content: $("content", this).text(),
+                        url: $("url", this).text()
+                    };
+                }).get();
+                var $input = document.getElementById(search_id);
+                var $resultContent = document.getElementById(content_id);
+                $input.addEventListener('input', function () {
+                    var str = '<ul class=\"search-result-list\">';
+                    var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                    $resultContent.innerHTML = "";
+                    if (this.value.trim().length <= 0) {
+                        return;
+                    }
+                    // perform local searching
+                    datas.forEach(function (data) {
+                        var isMatch = true;
+                        var data_title = data.title.trim().toLowerCase();
+                        var data_content = data.content.trim().replace(/<[^>]+>/g, "").toLowerCase();
+                        var data_url = data.url;
+                        data_url = data_url.indexOf('/') === 0 ? data.url : '/' + data_url;
+                        var index_title = -1;
+                        var index_content = -1;
+                        var first_occur = -1;
+                        // only match artiles with not empty titles and contents
+                        if (data_title !== '' && data_content !== '') {
+                            keywords.forEach(function (keyword, i) {
+                                index_title = data_title.indexOf(keyword);
+                                index_content = data_content.indexOf(keyword);
+                                if (index_title < 0 && index_content < 0) {
+                                    isMatch = false;
+                                } else {
+                                    if (index_content < 0) {
+                                        index_content = 0;
+                                    }
+                                    if (i === 0) {
+                                        first_occur = index_content;
+                                    }
+                                }
+                            });
+                        }
+                        // show search results
+                        if (isMatch) {
+                            str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
+                            var content = data.content.trim().replace(/<[^>]+>/g, "");
+                            if (first_occur >= 0) {
+                                // cut out 100 characters
+                                var start = first_occur - 20;
+                                var end = first_occur + 80;
+                                if (start < 0) {
+                                    start = 0;
+                                }
+                                if (start === 0) {
+                                    end = 100;
+                                }
+                                if (end > content.length) {
+                                    end = content.length;
+                                }
+                                var match_content = content.substr(start, end);
+                                // highlight all keywords
+                                keywords.forEach(function (keyword) {
+                                    var regS = new RegExp(keyword, "gi");
+                                    match_content = match_content.replace(regS, "<em class=\"search-keyword\">" + keyword + "</em>");
+                                });
+
+                                str += "<p class=\"search-result\">" + match_content + "...</p>"
+                            }
+                            str += "</li>";
+                        }
+                    });
+                    str += "</ul>";
+                    $resultContent.innerHTML = str;
+                });
+            }
+        });
+    };
+
+    searchFunc('/search.xml', 'searchInput', 'searchResult');
+});
+</script>
+
+    <!-- 白天和黑夜主题 -->
+<div class="stars-con">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>  
+</div>
+
+<script>
+    function switchNightMode() {
+        $('<div class="Cuteen_DarkSky"><div class="Cuteen_DarkPlanet"></div></div>').appendTo($('body')),
+        setTimeout(function () {
+            $('body').hasClass('DarkMode') 
+            ? ($('body').removeClass('DarkMode'), localStorage.setItem('isDark', '0'), $('#sum-moon-icon').removeClass("fa-sun").addClass('fa-moon')) 
+            : ($('body').addClass('DarkMode'), localStorage.setItem('isDark', '1'), $('#sum-moon-icon').addClass("fa-sun").removeClass('fa-moon')),
+            
+            setTimeout(function () {
+            $('.Cuteen_DarkSky').fadeOut(1e3, function () {
+                $(this).remove()
+            })
+            }, 2e3)
+        })
+    }
+</script>
+
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="/libs/materialize/materialize.min.js"></script>
+    <script src="/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="/libs/aos/aos.js"></script>
+    <script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="/js/matery.js"></script>
+
+    
+
+    
+
+    <!-- 雪花特效 -->
+    
+
+    <!-- 鼠标星星特效 -->
+    
+
+     
+        <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
+        <script src="/libs/others/TencentCaptcha.js"></script>
+        <button id="TencentCaptcha" data-appid="xxxxxxxxxx" data-cbfn="callback" type="button" hidden></button>
+    
+
+    <!-- Baidu Analytics -->
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    <!--腾讯兔小巢-->
+    
+    
+
+    
+
+    
+
+    
+    <script src="/libs/instantpage/instantpage.js" type="module"></script>
+    
+
+</body>
+
+</html>
