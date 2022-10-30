@@ -4,21 +4,22 @@
 
 # Site
 title: AKAARTOEN
-subtitle: 'Hey guys, welcome to my notes.'
+subtitle: 'welcome to my notes'
 description: ''
 keywords:
-author: Aaron Yan
+author: Aaron Yen
 language: en
 timezone: 'UTC'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://aaronyen0.github.io/
+url: https://aaronyen0.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
 
 # Directory
 source_dir: source
@@ -51,22 +52,11 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''
 
-# beautiful hightlight
-prism_plugin:
-  mode: "preprocess" # realtime/preprocess
-  theme: "tomorrow"
-  line_number: false # default false
-  custom_css:
-
-# search engin
-search:
-  path: search.xml
-  field: post
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -109,20 +99,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: landscape
 theme: hexo-theme-matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/aaronyen0/aaronyen0.github.io.git
+  repository: https://github.com/aaronyen0/aaronyen0.github.io
   branch: hexo_demo
-  ignore_hidden: false
-
-math:
-  engine: 'mathjax' # or 'katex'
-  mathjax:
-    # src: custom_mathjax_source
-    config:
-      # MathJax config
