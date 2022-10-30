@@ -1,5 +1,5 @@
 ---
-title: Intermediate Linux Skills
+title: Ch4 - Intermediate Linux Skills
 date: 2022-10-29 17:30:00
 author: Aaron
 top: false
@@ -7,7 +7,7 @@ cover: true
 toc: true
 summary: Linux Command
 categories: 
-  - Linux
+  - Linux Bootcamp
 tags: 
   - Linux
 ---
