@@ -1,5 +1,5 @@
 ---
-title: Ch5 - Boot Process and System Logging
+title: Linux Bootcamp Ch5 - Boot Process
 date: 2022-10-30 00:00:00
 author: Aaron
 top: false
@@ -14,7 +14,7 @@ tags:
 
 影片過於粗略，改看[鳥哥私房菜20章 開機流程](https://linux.vbird.org/linux_basic/centos5/0510osloader-centos5.php)
 
-今天仔細讀boot，原文寫得很精彩，小弟買這本書好幾年了，竟然一直都沒看
+今天仔細讀linux boot，原文寫得很精彩，小弟買這本書好幾年了，竟然一直都沒看
 
 
 # Linux開機流程分析
@@ -342,3 +342,46 @@ Starting anacron:                           [  OK  ]
 # 前一個是 runlevel 5 ，目前的是 runlevel 3
 ```
 
+
+
+
+
+## Linux系統服務控制Command(service、systemctl)
+
+### 列出所有服務
+```shell	
+systemctl list-unit-files --type service -all
+service --status-all
+sudo systemctl | grep running #可搭配grep顯示開機啟動或是正在執行的服務
+```
+
+
+### 服務管理
+```shell
+# 啟動服務
+systemctl start <service-name>
+service <service-name> start
+
+# 關閉服務
+systemctl stop <service-name>
+service <service-name> stop
+
+# 重新啟動服務
+systemctl restart <service-name>
+service <service-name> restart
+
+# 查詢服務狀態
+systemctl status <service-name>
+service <service-name> status
+```
+
+### Linux開機啟動服務
+可透過systemctl控制要在開機時啟動或是不啟動服務
+
+```shell
+# 開機啟動服務
+systemctl enable <service-name>
+
+# 開機不啟動服務
+systemctl disable <service-name>
+```
