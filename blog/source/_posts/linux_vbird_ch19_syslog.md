@@ -1,5 +1,5 @@
 ---
-title: Linux Bootcamp Ch5 - System Log
+title: 鳥哥私房菜 ch19：syslog
 date: 2022-10-30 00:00:00
 author: Aaron
 top: false

@@ -1,5 +1,5 @@
 ---
-title: Linux Bootcamp Ch5 - Boot Process
+title: 鳥哥私房菜 ch20：開機流程、模組管理與 Loader
 date: 2022-10-30 00:00:00
 author: Aaron
 top: false
