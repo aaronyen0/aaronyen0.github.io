@@ -137,3 +137,41 @@ Linux系統使用的是目錄樹架構，但是我們的檔案資料其實是放
   - FTP
     - 硬碟容量與網路卡好壞相關性較高
 
+
+
+## Linux Bootcamp: Disk Management
+```shell
+fdisk -l # list all disks
+
+fdisk /dev/sdb # interactive command: to do partition(GPT, MBR) on sdb
+
+mkfs # create file system on a partition
+mkfs -t TYPE DEVICE
+mkfs -t ext3 /dev/sdb2
+mkfs -t ext4 /dev/sdb3
+mkfs.ext4 /dev/sdb3
+
+# mounting disk
+# mount DEVICE MOUNT_POINT 
+mount /dev/sdb3 /opt
+mount # show current mounting(show both physical filesystem and also virtual filesystem)
+df -h # disk free: report file system usage
+
+# to make mounting permanent, add command into /etc/fstab file
+
+# to undo mount
+# umount DEVICE_OR_MOUNT_POINT
+umount /dev/sdb3
+umount /opt
+
+# swap
+mkswap /dev/sdb1  # prepare swap space
+swapon /dev/sdb1  # enable swap partition
+swapon -s  # show usage swap space
+
+# viewing labels and UUIDs
+lsblk -f
+
+# labeling a file system
+e2label /dev/sdb3 /opt
+```
