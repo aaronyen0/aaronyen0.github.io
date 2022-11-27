@@ -1,7 +1,7 @@
 ---
-title: 鳥哥私房菜 ch6：檔案權限與目錄配置
+title: 鳥哥私房菜 ch5：檔案權限與目錄配置
 date: 2022-11-20 00:00:00
-author: Aaron
+author: 鳥哥
 top: false
 cover: true
 toc: true
@@ -11,6 +11,10 @@ categories:
 tags:
   - Linux
 ---
+
+# [鳥哥私房菜 ch5：檔案權限與目錄配置](https://linux.vbird.org/linux_basic/centos7/0210filepermission.php)
+全文皆為幫助自己記憶所節錄的內容
+
 
 ## 1. 使用者與群組
 

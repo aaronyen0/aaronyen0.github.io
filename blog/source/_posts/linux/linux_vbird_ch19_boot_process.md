@@ -1,5 +1,5 @@
 ---
-title: 鳥哥私房菜 ch20：開機流程、模組管理與 Loader
+title: 鳥哥私房菜 ch19：開機流程、模組管理與 Loader
 date: 2022-10-30 00:00:00
 author: Aaron
 top: false
@@ -12,12 +12,11 @@ tags:
   - Linux
 ---
 
-影片過於粗略，改看[鳥哥私房菜20章 開機流程](https://linux.vbird.org/linux_basic/centos5/0510osloader-centos5.php)
 
-今天仔細讀linux boot，原文寫得很精彩，小弟買這本書好幾年了，竟然一直都沒看
+# [鳥哥私房菜 ch19：開機流程、模組管理與 Loader](https://linux.vbird.org/linux_basic/centos7/0510osloader.php)
+全文皆為幫助自己記憶所節錄的內容
 
 
-# Linux開機流程分析
 
 ## 開機流程一覽
 - 載入 BIOS 的硬體資訊與進行自我測試，並依據設定取得第一個可開機的裝置；

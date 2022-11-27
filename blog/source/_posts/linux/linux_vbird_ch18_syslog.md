@@ -1,5 +1,5 @@
 ---
-title: 鳥哥私房菜 ch19：syslog
+title: 鳥哥私房菜 ch18：認識與分析登錄檔
 date: 2022-10-30 00:00:00
 author: Aaron
 top: false
@@ -12,13 +12,9 @@ tags:
   - Linux
 ---
 
-影片過於粗略，改看[鳥哥私房菜19章 認識分析登錄檔](https://linux.vbird.org/linux_basic/centos5/0570syslog-centos5.php)
 
-
-以下內容皆為節錄鳥哥私房菜，單純一邊閱讀一邊節錄重點幫助記憶
-
-
-# 認識分析登錄檔
+# [鳥哥私房菜 ch18：認識與分析登錄檔](https://linux.vbird.org/linux_basic/centos7/0570syslog.php)
+全文皆為幫助自己記憶所節錄的內容
 
 ## 什麼是登錄檔(log)
 ### 登錄檔的重要性

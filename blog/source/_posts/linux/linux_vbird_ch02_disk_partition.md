@@ -1,7 +1,7 @@
 ---
-title: 鳥哥私房菜 ch3：主機規劃與磁碟分割
+title: 鳥哥私房菜 ch2：主機規劃與磁碟分割
 date: 2022-11-19 00:00:00
-author: Aaron
+author: 鳥哥
 top: false
 cover: true 
 toc: true
@@ -11,6 +11,9 @@ categories:
 tags: 
   - Linux
 ---
+
+# [鳥哥私房菜 ch2：主機規劃與磁碟分割](https://linux.vbird.org/linux_basic/centos7/0130designlinux.php)
+全文皆為幫助自己記憶所節錄的內容
 
 
 ## 1 各硬體裝置在Linux中的檔名
