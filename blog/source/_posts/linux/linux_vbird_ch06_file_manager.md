@@ -17,8 +17,8 @@ tags:
 
 
 ## 6.1 目錄與路徑
+
 ### 6.1.1 相對路徑與絕對路徑
-### 6.1.2 目錄的相關操作： cd, pwd, mkdir, rmdir
 
 ```shell
 .         # 代表此層目錄
@@ -27,6 +27,9 @@ tags:
 ~         # 代表『目前使用者身份』所在的家目錄
 ~account  # 代表 account 這個使用者的家目錄(account是個帳號名稱)
 ```
+
+### 6.1.2 目錄的相關操作： cd, pwd, mkdir, rmdir
+
 
 ```shell
 # 變換目錄
@@ -367,6 +370,12 @@ less 的用法比起 more 更加的有彈性，在 more 的時候，我們並沒
 [root@study ~]# tail -f /var/log/messages
   <==要等到輸入[ctrl]-c之後才會離開tail這個指令的偵測！
 ```
+
+> 假如我想要顯示 /etc/man_db.conf 的第 11 到第 20 行呢？
+> 在第 11 到第 20 行，那麼我取前 20 行，再取後十行，所以結果就是：`head -n 20 /etc/man_db.conf | tail -n 10`
+
+> 如果我想要列出正確的行號呢？就是螢幕上僅列出 /etc/man_db.conf 的第 11 到第 20 行，且有行號存在？
+> 可以透過 cat -n 來帶出行號，然後再透過 head/tail 來擷取資料`cat -n /etc/man_db.conf | head -n 20 | tail -n 10`
 
 ### 6.3.4 非純文字檔： od
 ### 6.3.5 修改檔案時間與建置新檔： touch
